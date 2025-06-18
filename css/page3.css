@@ -1,0 +1,11 @@
+
+#python_img img {
+    width: 30%; 
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 1rem;
+}
+
+

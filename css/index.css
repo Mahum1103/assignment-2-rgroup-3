@@ -1,0 +1,75 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-justify: auto;
+    background-color: #fdf6f0;
+    color: black;
+}
+
+section{
+    padding: 2rem ;
+}
+
+.intro{
+    background-color: beige;
+    padding: 1rem;
+    margin: 0px auto;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 590px;
+    text-align: center;
+}
+
+
+.card1, .card2, .card3, .card4{
+    background-color: beige;
+    padding: 1rem;
+}
+
+img{
+    width: 30%;
+    height: auto;
+}
+
+.cards{
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+
+/* uptill now we were designing for the smallest screen /
+
+/* css rules for medium sized screens*/
+@media only screen and (min-width: 591px) and (max-width: 789px){                /*https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout */
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:2rem;
+    }
+    .intro, section{
+    max-width: 790px;
+    }
+
+}
+
+/* css rules for large sized screens*/
+@media only screen and (min-width: 790px){
+        .intro{
+        max-width: 790px;
+        width: 100%;
+        margin: 0 auto;
+        }
+        section{
+            width: 790px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .cards{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            padding: 1rem;
+            gap:2rem;
+            margin: 2rem auto;
+        }
+    }
