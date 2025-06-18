@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content=" Contact, Reach out, Email">
+        <meta name="description" content="Our Contact form">
+        <meta name="author" content="Mahum Khan and Palakdeep Kaur">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/contactus.css">
+        <title>Contact Us</title>
+    </head>
+
+    <body> 
+        <header>
+        <div class="item1">
+        <nav>
+            <img src="images/tinyLogo.png" class="logo" alt="Small image of logo for navigation bar">
+            <ul>
+                <li><a href="index.html"> Home </a></li>
+                <li><a href="Page2.html"> HTML </a></li>
+                <li><a href="Page3.html"> Python </a></li>
+                <li><a class="current" href="ContactUs.html"> Contact Us </a></li>
+            </ul>
+        </nav>
+        </div>
+        </header>
+
+        <main>
+            <div class="intro">
+            <h1>Contact Us</h1>
+            <h3>Please feel free to reach out to us if you have any question, concerns, or inquiries!</h3>
+            </div>
+        <section>
+            
+            <form id="contactForm" action="mailto:mkhan988@mtroyal.ca" method="post">
+
+                <div class="cards">
+
+                <div class="card1">
+                <label for="subject" class= "required">Subject: </label>
+                <input type="text" id="subject" name="subject" maxlength="100">
+                </div>
+
+                <div class="card2">
+                    <label for="name" class= "required">Name: </label>
+                    <input type="text" id="name" name="name"  maxlength="100">
+                </div>
+
+                <div class="card3">
+                   <label for="email" class= "required">Email: </label>
+                    <input type="email" id="email" name="email" placeholder="name@example.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"> 
+                </div>
+
+                <div class="card4">
+                    <label for="phone">Phone (Optional): </label>
+                    <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                </div>
+                
+                <div class="card5">
+                <label for="inquiry">Inquiry: </label>
+                <textarea id="inquiry" name="inquiry" required></textarea>
+                </div>
+
+                <div class="card1">
+                <fieldset>
+                    <legend>Type of Inquiry: </legend>
+                    <label><input type="radio" name="type" value="general" required> General</label>
+                    <label><input type="radio" name="type" value="technical"> Technical</label>
+                </fieldset>
+                </div>
+
+                <div class="card2">
+                <fieldset>
+                    <legend>Topics of Interest:</legend>
+                    <label><input type="checkbox" name="topic" value="html"> HTML</label>
+                    <label><input type="checkbox" name="topic" value="java"> Java</label>
+                    <label><input type="checkbox" name="topic" value="python"> Python</label>
+                </fieldset>
+                </div>
+
+                <div class="card3">
+                <label for="date">Date of Inquiry: </label>
+                <input type="date" id="date" name="date">
+                </div>
+                
+                <div class="form-buttons">
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+                </div>
+                </div>
+
+            </form>
+        </section>
+            
+
+        </main>     
+
+        <footer id="footer">
+            <p>We’d love to hear from you! Whether you have a question or need help with a project, feel free to get in touch.</p>
+            <p><a href="index.html"> Home |</a>  <a href="page2.html"> HTML</a> | <a href="page3.html"> Python</a> | <a href="ContactUs.html"> Contact Us </a> </p>
+            <p id="copyright">&copy; 2025 codERS</p>
+        </footer>
+
+    </body>
+</html>

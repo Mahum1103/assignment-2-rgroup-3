@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content=" Welcome Page, Home">
+        <meta name="description" content="Our welcome page">
+        <meta name="author" content="Mahum Khan and Palakdeep Kaur">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/index.css">
+        
+
+        <title>Welcome to codERS</title>
+    </head>
+
+    <body> 
+        <header>
+        <div class="item1">
+            <nav>
+                <img src="images/tinyLogo.png" class="logo" alt="Small image of logo for navigation bar">
+                <ul>
+                    <li><a class ="current" href="index.html"> Home </a></li>
+                    <li><a href="Page2.html"> HTML </a></li>
+                    <li><a href="Page3.html"> Python </a></li>
+                    <li><a href="ContactUs.html"> Contact Us </a></li>
+                </ul>
+            </nav> 
+        </div>
+
+        </header>
+
+
+        <main>
+ 
+            <div class="intro">
+
+            <h1>Welcome to codERS!</h1>
+            <img src="images/Logo.png" alt="codERS logo" title="codERS">
+
+            </div>
+
+            <section>
+            <div class="cards">
+            <div class="card1">
+            <h2>Who are we?</h2>
+            <p> codERS is an interactive and educational web platform designed to empower programmers of all levels — from beginners to advanced developers — by offering reliable, up-to-date information on various programming languages and hands-on coding help.</p>
+                <h3> Key Features </h3>
+                Programming Language Guides
+                Programming Language Guides
+                codERS provides clear, structured documentation and tutorials on major programming languages including:
+
+                <ul>
+                    <li>HTML</li>
+
+                    <li>Python</li>
+                </ul>
+
+                <p>Each language section includes syntax explanations, examples, use cases, and best practices to help users quickly learn and apply concepts.</p>
+            </div>
+
+            <div class="card2">
+            <h2>What is codERS all about?</h2>
+                <h4>Coding Help & Q&A</h4>
+                Users can:
+                <ul>
+                    <li>Ask coding-related questions</li>
+
+                    <li>Post code snippets for review</li>
+
+                    <li>Get step-by-step solutions to their programming problems</li>
+
+                    <li>Browse previously solved questions for common issues</li>
+                </ul>
+                Whether it's a logic error in a Python script or styling problems in CSS, codERS has a growing community and expert responses to help resolve challenges.
+            </div>
+
+            <div class="card3">
+                <h4>Code Playground</h4>
+                A built-in code editor and compiler lets users:
+                <ul>
+                    <li>Write and test code live</li>
+
+                    <li>Run scripts in supported languages</li>
+
+                    <li>Share results and code output</li>
+
+                </ul>
+
+                <h4>Tools & Resources</h4>
+                codERS includes handy tools like:
+                <ul>
+                    <li>Code formatters and validators</li>
+
+                    <li>Regex testers</li>
+
+                    <li>Cheat sheets and quick reference cards</li>
+
+                </ul>
+            </div> 
+
+            <div class="card4">
+                <h4>Target Audience:</h4>
+                <ul>
+                    <li>Students learning to code</li>
+
+                    <li>Self-taught developers</li>
+
+                    <li>Bootcamp participants</li>
+
+                    <li>Professionals seeking quick answers</li>
+
+                </ul>
+                <p>
+                Mission:
+                To simplify coding, foster collaborative learning, and solve real-world programming problems through accessible content and expert support.
+                </p>
+            </div> 
+            </div>
+            </section>
+
+            <h1>Use the Form below to get in Touch!</h1>
+
+            <div class="form1">
+            <form class="contactForm" action="mailto:mkhan988@mtroyal.ca" method="post">
+
+                <label for="subject" class="required">Subject: </label>
+                <input type="text" id="subject" name="subject" maxlength="100">
+                
+                
+                <label for="name" class="required">Name: </label>
+                <input type="text" id="name" name="name"  maxlength="100">
+
+
+                <label for="email" class="required">Email: </label>
+                <input type="email" id="email" name="email" placeholder="name@example.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" >
+
+            
+                <label for="phone">Phone (Optional): </label>
+                <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+
+                
+                <label for="inquiry">Inquiry</label>
+                <textarea id="inquiry" name="inquiry" required></textarea>
+                
+
+                <fieldset>
+                    <legend>Type of Inquiry: </legend>
+                    <label><input type="radio" name="type" value="general" required> General</label>
+                    <label><input type="radio" name="type" value="technical"> Technical</label>
+                </fieldset>
+                
+
+                <fieldset>
+                    <legend>Topics of Interest:</legend>
+                    <label><input type="checkbox" name="topic" value="html"> HTML</label>
+                    <label><input type="checkbox" name="topic" value="java"> Java</label>
+                    <label><input type="checkbox" name="topic" value="python"> Python</label>
+                </fieldset>
+            
+
+                <label for="date">Date of Inquiry: </label>
+                <input type="date" id="date" name="date">
+                <br>
+                <br>
+                <input id="reset" type="reset" value="Reset">
+                <input id="submit" type="submit" value="Submit">
+            
+            </form>
+            </div>
+
+
+        </main>
+        
+        <footer id="footer">
+            <p>We’d love to hear from you! Whether you have a question or need help with a project, feel free to get in touch.</p>
+            <p><a href="index.html"> Home |</a>  <a href="page2.html"> HTML</a> | <a href="page3.html"> Python</a> | <a href="ContactUs.html"> Contact Us </a> </p>
+            <p id="copyright">&copy; 2025 codERS</p>
+        </footer>
+
+    </body>
+</html>
