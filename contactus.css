@@ -1,0 +1,94 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fdf6f0;
+}
+input{
+    padding: 1rem;
+}
+textarea{
+    padding: auto;
+}
+header h1 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+section {
+    padding: 2rem;
+}
+
+.intro {
+    background-color: beige;
+    padding: 1rem;
+    margin: 0 auto 1rem auto;
+    width: 100%;
+    max-width: 590px;
+}
+
+.cards {
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.card1, .card2, .card3, .card4, .card5 {
+    background-color: beige;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form-buttons {
+    display: flex;
+    grid-column: 2;
+    text-align: center;
+    margin-top: 1rem;
+    justify-content:flex-end;
+}
+
+.form-buttons input {
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+form div, fieldset {
+    margin-top: 1rem;
+}
+
+/* Medium screen styles */
+@media only screen and (min-width: 591px) and (max-width: 789px) {
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    .item2, .intro, section {
+        max-width: 790px;
+    }
+}
+
+/* Large screen styles */
+@media only screen and (min-width: 790px) {
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 1rem;
+        gap:2rem;
+        margin: 2rem auto;
+    }
+
+    .intro{
+        max-width: 790px;
+        width: 100%;
+        margin: 0 auto;
+        }
+
+    section{
+            width: 790px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+}
