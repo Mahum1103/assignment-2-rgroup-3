@@ -26,6 +26,7 @@ section {
     margin: 0 auto 1rem auto;
     width: 100%;
     max-width: 590px;
+    text-align: center;
 }
 
 .cards {
@@ -37,6 +38,11 @@ section {
     background-color: beige;
     padding: 1rem;
     margin-bottom: 1rem;
+}
+img{
+    width: 45%;
+    height: auto;
+    border-radius: 8px;
 }
 
 .form-buttons {
