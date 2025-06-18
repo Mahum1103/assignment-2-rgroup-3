@@ -66,8 +66,8 @@ nav{                                                    /*https://www.geeksforge
     color:black
 }
 a[target="_blank"], a{
-    color: #a87008;
-    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 footer a[target="_blank"], a{
     color: black;
