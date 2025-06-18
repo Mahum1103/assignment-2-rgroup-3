@@ -21,7 +21,6 @@ section {
 }
 
 .intro {
-    background-color: beige;
     padding: 1rem;
     margin: 0 auto 1rem auto;
     width: 100%;
@@ -35,7 +34,7 @@ section {
 }
 
 .card1, .card2, .card3, .card4, .card5 {
-    background-color: beige;
+    background-color: rgb(243, 243, 220);
     padding: 1rem;
     margin-bottom: 1rem;
 }

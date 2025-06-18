@@ -6,7 +6,7 @@ h1, h2, h3, h4{
     text-align: center;
 }
 .intro{
-    background-color: beige;
+    background-color: rgb(243, 243, 230);
     margin: 0 auto;
     padding: 1rem;
     width: 100%;
@@ -14,7 +14,7 @@ h1, h2, h3, h4{
     font-family: Arial, sans-serif;
 }
 .item1{
-    background-color: bisque;
+    background-color: rgb(247, 234, 219);
     padding: 1rem; 
     margin: 0px auto;
     width: 100%;
@@ -26,7 +26,7 @@ h1, h2, h3, h4{
     height: auto;
 }
 footer{
-    background-color: bisque;
+    background-color: rgb(247, 234, 219);
     padding: 1rem;
     width: 100%;
     margin: 0 auto;
@@ -57,7 +57,7 @@ nav{                                                    /*https://www.geeksforge
     color:black;
 }
 .current{
-    background-color: #d67747;
+    background-color: #cf8f6f;
     color: black;
     font-weight: bold;
 }
@@ -66,7 +66,7 @@ nav{                                                    /*https://www.geeksforge
     color:black
 }
 a[target="_blank"], a{
-    color: #0000007b;
+    color: #a87008;
     text-decoration: none;
 }
 
